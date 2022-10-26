@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <nav_component></nav_component>
     <div class="container">
       <container_Hello></container_Hello>
@@ -26,6 +26,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url("@/assets/bg_bggenerator_com.png");
+  background-size: cover;
 }
 .container{
 

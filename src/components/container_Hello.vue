@@ -4,10 +4,10 @@
       <h1>HELLO</h1>
       <h2>dribble</h2>
       <p>sjsjwjqj jrqjrqjqwjr jrejqtew jtejtje ejjwjte wetjwjt  twjtwj jtw jewj wjwj j j</p>
-      <button id="launch_btn" type="button" >GO LUNCH</button>
+      <button id="launch_btn" class = "btn btn-primary" type="button" >GO LUNCH</button>
     </div>
     <div  class = "col-lg-7">
-      <img src="../assets/img_1.png">
+      <img src="../assets/output-onlinepngtools.png">
     </div>
 
   </label>
@@ -30,11 +30,14 @@ export default {
 }
 
 #launch_btn{
-  background-color: darkorchid;
+  background-color: #e94b86;
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
+}
+image{
+  width: 50%;
 }
 </style>

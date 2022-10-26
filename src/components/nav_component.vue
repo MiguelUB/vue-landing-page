@@ -6,13 +6,11 @@
       <span class="text-muted">Toggleable via the navbar brand.</span>
     </div>
   </div>
-  <nav class="navbar navbar-default">
-    <label class = "toggler">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-    </label>
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-default">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id = "navbarText">
       <ul class="nav navbar-nav mx-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Portfolio</a>
@@ -24,11 +22,10 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" style="margin-right: 15px">
         <form class="form-inline my-2 my-lg-0" >
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         </form>
-
       </ul>
     </div>
   </nav>
